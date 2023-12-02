@@ -95,9 +95,9 @@ export default async function SinglePost({
                   </div>
 
                   <div className="max-w-xs mx-auto">
-                    <a
+                    <Link
                       className="btn w-full text-white bg-indigo-500 hover:bg-indigo-600 group shadow-sm"
-                      href="#0"
+                      href={`/pago/detallePago`}
                     >
                       Anotarme
                       <span className="tracking-normal text-indigo-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
@@ -116,7 +116,7 @@ export default async function SinglePost({
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
