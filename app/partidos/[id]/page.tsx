@@ -97,7 +97,7 @@ export default async function SinglePost({
                   <div className="max-w-xs mx-auto">
                     <Link
                       className="btn w-full text-white bg-indigo-500 hover:bg-indigo-600 group shadow-sm"
-                      href={`/pago/detallePago`}
+                      href={`/pago/id/page`}
                     >
                       Anotarme
                       <span className="tracking-normal text-indigo-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
